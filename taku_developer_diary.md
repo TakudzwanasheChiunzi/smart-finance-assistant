@@ -1,8 +1,8 @@
 # 📓 Developer's Diary
 
 
-```markdown
-### Entry 1: Week 1: 25/04/2026 – Groundwork
+
+### **Entry 1: Week 1: 25/04/2026 – Groundwork**
 
 **Artifact:** [Screenshot/code snippet/GIF of AI interaction]
 
