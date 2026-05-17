@@ -12,9 +12,10 @@ This file shows sample entries for your **Developer's Diary**. You must document
 ## ☀️TAKU'S DEVELOPER DIARY ENTRIES☀️
 
 ### Entry 1 – ASSIGNMENT BREAKDOWN AND PERSONAL CHOICES FOR THE ASSIGNMENT
-- I started with breakaing down the assignment and identifying what the assignment was requiring of me and breaking down what I wanted to accomplish in this assignment.
+- The goal of this assignment is to create a finance assistant, a finance app that can help people with their personal finance goals. I chose my app to focus on tracking expenses (budgeting) and to act as a savings planner/helper.
+- I started by breaking down the assignment and identifying what the assignment was requiring of me. I then used AI to better understand the assignment's goal and specifications.
 
-**Artifact:** Screenshot of ChatGPT conversation about analyzing spending data.
+**Artifact:** Screenshot of ChatGPT conversation about analysing spending data.
 
 **My Initial Prompt:** "Help me analyze CSV data with pandas"
 
