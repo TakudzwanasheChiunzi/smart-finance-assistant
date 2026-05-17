@@ -48,7 +48,7 @@ GOALS:
 
 ---
 
-### Entry 2 – Critiquing and Improving AI Code
+### Entry 2 – RESEARCHING ON APP BUILDING (LEARNING HOW TO MAKE THINGS PERSONALISED)
 **Artifact:** Before/after screenshots of AI-generated spending analysis code.
 
 **Context:** AI gave me complex code that was hard to understand for my transaction analysis.
