@@ -42,7 +42,7 @@ This file shows sample entries for your **Developer's Diary**. You must document
 **Reflection:** The response provided validation that I understood the gist of the assignment and provided the base understanding for me to begin work on it.
 
 GOALS:
-- My financial assistant will combine two of the themes (Budget Buddy and Savings Coach) as these are the things I would like to have in a finance app.
+- My financial assistant will be taking on the Budget Buddy theme.
 - My app will make use of colourful texts, themes and a menu page for maximum user interaction (all customisable, to an extent, by the user)
 - My app will be able to take in CSV files of expenses, calculate savings based on goals and provide advice based on what the results of their inpus are
 
