@@ -1,12 +1,5 @@
 # 📓 Developer's Diary – AI Collaboration Guide
 
-This file shows sample entries for your **Developer's Diary**. You must document your AI collaboration throughout the project development. Each entry should have:
-- **Artifact**: a screenshot, GIF, or snippet of your AI interaction
-- **Context**: one-sentence description of your goal
-- **Reflection**: analysis of what happened, what you learned, and how you improved the solution
-
-**Key Principle**: You're directing AI like a junior developer - always review, critique, and improve their suggestions.
-
 ---
 
 ## ☀️TAKU'S DEVELOPER DIARY ENTRIES☀️
@@ -169,32 +162,8 @@ except pd.errors.EmptyDataError:
 - Always connect code back to business decisions
 - Format outputs for non-technical users
 - Include actionable insights, not just data summaries
-- Consider the end user's needs and context
+- Consider the end user's needs ad context
 
 ---
 
-## 📝 Documentation Template for Your Entries
-
-Use this format for consistent diary entries:
-
-```markdown
-### Entry [Number] – [Descriptive Title]
-**Artifact:** [Screenshot/code snippet/GIF of AI interaction]
-
-**Context:** [One sentence: what you were trying to achieve]
-
-**My Prompt:** "[Your exact prompt to AI]"
-
-**AI Response Summary:** [Brief description of what AI provided]
-
-**My Critique/Improvement:** [How you modified or improved the AI's suggestion]
-
-**Result:** [What you ended up with and why it's better]
-
-**Reflection:** [What you learned about AI collaboration, business programming, or problem-solving]
-```
-
----
-
-✅ **Remember**: Document your AI collaboration throughout your project development. Each entry should show learning and improvement, not just successful interactions. Show how you direct AI like a junior developer to create business-appropriate solutions.
 
