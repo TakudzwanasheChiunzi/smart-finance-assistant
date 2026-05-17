@@ -13,6 +13,7 @@ This file shows sample entries for your **Developer's Diary**. You must document
 
 ### Entry 1 – ASSIGNMENT BREAKDOWN AND PERSONAL CHOICES FOR THE ASSIGNMENT
 - I started with breakaing down the assignment and identifying what the assignment was requiring of me and breaking down what I wanted to accomplish in this assignment.
+
 **Artifact:** Screenshot of ChatGPT conversation about analyzing spending data.
 
 **My Initial Prompt:** "Help me analyze CSV data with pandas"
