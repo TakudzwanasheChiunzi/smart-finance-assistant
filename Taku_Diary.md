@@ -41,7 +41,9 @@ GOALS:
 
 ---
 
-### Entry 2 – RESEARCHING ON APP BUILDING (LEARNING HOW TO MAKE THINGS PERSONALISED)
+### Entry 2 – IDEALISING WHAT I WANT MY FINANCE APP TO BE LIKE
+- I wrote down my ideas of what I wanted the app to do/created a pseudo code of what I wanted the assistant to do. I then asked Gemini to break down how I would go about it.
+   
 **Artifact:** Before/after screenshots of AI-generated spending analysis code.
 
 **Context:** AI gave me complex code that was hard to understand for my transaction analysis.
