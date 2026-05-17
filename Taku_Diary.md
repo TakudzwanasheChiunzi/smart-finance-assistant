@@ -15,15 +15,20 @@ This file shows sample entries for your **Developer's Diary**. You must document
 - The goal of this assignment is to create a finance assistant, a finance app that can help people with their personal finance goals. I chose my app to focus on tracking expenses (budgeting) and to act as a savings planner/helper.
 - I started by breaking down the assignment and identifying what the assignment was requiring of me. I then used AI to better understand the assignment's goal and specifications.
 
-**Artifact:** Screenshot of ChatGPT conversation about analysing spending data.
+**Artifact:** 
 
-**My Initial Prompt:** "Help me analyze CSV data with pandas"
+**My Initial Prompt:** "Hello Gemini. I'm a BCOM business information systems undergraduate student, in my first year, second semester. I'm doing my Introduction to Business Programming assignment, and I would like your help breaking down what the assignment requires in a way a complete novice would understand (since I am new to Python)."
 
-**My Improved Prompt:** "I'm building a Smart Finance Assistant. I have a CSV with Date, Amount, Category, Description columns. The Amount has dollar signs that need cleaning. I want to calculate total spending by category and format results for a business presentation. Please write pandas code with clear comments."
+**My Improved Prompt:** N/A
 
-**Context:** Learning to write specific, business-focused AI prompts.
+**Context:** Here, I asked Gemini to break down the assignment in a simple way so I could compare my understanding with its understanding.
 
-**Reflection:** The first prompt gave me generic pandas code. The improved prompt with business context got me professional, commented code that handled data cleaning. I learned that AI needs clear business context and output requirements to give useful results. Now I always include: data structure, business purpose, and desired output format.
+**Reflection:** The response provided validation that I understood the gist of the assignment and provided the base understanding for me to begin work on it.
+
+GOALS:
+- My financial assistant will combine two of the themes (Budget Buddy and Savings Coach) as these are the things I would like to have in a finance app.
+- My app will make use of colourful texts, themes and a menu page for maximum user interaction (all customisable, to an extent, by the user)
+- My app will be able to take in CSV files of expenses, calculate savings based on goals and provide advice based on what the results of their inpus are
 
 ---
 
