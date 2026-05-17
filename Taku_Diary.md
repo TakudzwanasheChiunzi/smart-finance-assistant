@@ -16,6 +16,22 @@ This file shows sample entries for your **Developer's Diary**. You must document
 - I started by breaking down the assignment and identifying what the assignment was requiring of me. I then used AI to better understand the assignment's goal and specifications.
 
 **Artifact:** 
+<img width="1337" height="651" alt="Screenshot 2026-05-17 204900" src="https://github.com/user-attachments/assets/d3c813ea-5558-4b64-a71b-80f85a73357c" />
+<img width="1362" height="645" alt="Screenshot 2026-05-17 204926" src="https://github.com/user-attachments/assets/127721fd-8b8c-4a1a-9bd1-cf91e27e22a3" />
+<img width="1335" height="658" alt="Screenshot 2026-05-17 204938" src="https://github.com/user-attachments/assets/181b418c-ba52-44c4-bff4-20a9c34065b2" />
+<img width="1349" height="661" alt="Screenshot 2026-05-17 204950" src="https://github.com/user-attachments/assets/d6ea5a45-1d91-4f1b-a0f2-ab3e51ab4737" />
+<img width="1352" height="648" alt="Screenshot 2026-05-17 205003" src="https://github.com/user-attachments/assets/c60f3eab-a925-45a1-b2d9-9d75e87dd6c6" />
+<img width="1391" height="649" alt="Screenshot 2026-05-17 205014" src="https://github.com/user-attachments/assets/a5a17ef7-9eed-40a3-90b3-60d1e2cf6e07" />
+<img width="1373" height="658" alt="Screenshot 2026-05-17 205032" src="https://github.com/user-attachments/assets/defb148e-7e8b-4995-b859-7b5de54ad27f" />
+<img width="1393" height="654" alt="Screenshot 2026-05-17 205045" src="https://github.com/user-attachments/assets/68ba48fe-8b2d-4207-aabd-3d7fbc5f8589" />
+<img width="1408" height="661" alt="Screenshot 2026-05-17 205058" src="https://github.com/user-attachments/assets/85f64344-023a-4f4c-9eee-38f75ffaad61" />
+<img width="1436" height="665" alt="Screenshot 2026-05-17 205113" src="https://github.com/user-attachments/assets/7032cbd3-3c9c-4d75-bd9c-053894ed74f1" />
+<img width="1413" height="655" alt="Screenshot 2026-05-17 205128" src="https://github.com/user-attachments/assets/5006a7e8-873b-4566-8913-69d300765cc2" />
+<img width="1441" height="660" alt="Screenshot 2026-05-17 205142" src="https://github.com/user-attachments/assets/6c82f64c-1086-4174-b710-7e6ed94a68bb" />
+<img width="1432" height="661" alt="Screenshot 2026-05-17 205157" src="https://github.com/user-attachments/assets/99c1469c-242e-4372-ba67-c88ad78004bb" />
+<img width="1431" height="654" alt="Screenshot 2026-05-17 205211" src="https://github.com/user-attachments/assets/2e2fb983-a2ab-4b44-ab77-dcfd91bf9f49" />
+<img width="1392" height="638" alt="Screenshot 2026-05-17 205226" src="https://github.com/user-attachments/assets/d3ba231c-3c1d-4d34-a621-af79647dd123" />
+
 
 **My Initial Prompt:** "Hello Gemini. I'm a BCOM business information systems undergraduate student, in my first year, second semester. I'm doing my Introduction to Business Programming assignment, and I would like your help breaking down what the assignment requires in a way a complete novice would understand (since I am new to Python)."
 
