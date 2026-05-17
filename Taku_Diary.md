@@ -43,32 +43,29 @@ GOALS:
 
 ### Entry 2 – IDEALISING WHAT I WANT MY FINANCE APP TO BE LIKE
 - I wrote down my ideas of what I wanted the app to do/created a pseudo code of what I wanted the assistant to do. I then asked Gemini to break down how I would go about it.
-   
-**Artifact:** Before/after screenshots of AI-generated spending analysis code.
 
-**Context:** AI gave me complex code that was hard to understand for my transaction analysis.
+-	The app will welcome the user to the app
+-	The app will ask the user to select a theme and font
+-	App will start by asking if the user wants to see the menu/dashboard or jump into the budget
 
-**AI's First Response:**
-```python
-df.groupby('Category')['Amount'].agg({'sum','mean','count'}).round(2)
-```
+If the User chooses Budget:
+-	App asks the user if they want to work on their budget 
+If the User chooses Budget:
+-	App asks the user if 
+-	App asks if the user wants to upload a CSV file or input transactions
+If the User chooses CSV:
+-	App prompts user to upload the CSV
+-	App calculates total spent, amount of budget used, percentage of budget used, and gives out advice
+If the User chooses input transactions
+-	App prompts user to input how many transactions they want to input
+-	App asks user to input the name of the transactions, what it was for and the amount
+-	App calculates total spent, amount of budget used, percentage of budget used and gives out advice
 
-**My Critique:** "This code is unclear and doesn't handle dollar signs. Can you make it more readable with business-friendly variable names and add data cleaning?"
 
-**AI's Improved Response:**
-```python
-# Clean amount data by removing dollar signs
-df['Amount_Clean'] = pd.to_numeric(df['Amount'].str.replace('$', ''), errors='coerce')
-
-# Calculate spending metrics by category
-spending_summary = df.groupby('Category')['Amount_Clean'].agg({
-    'Total_Spent': 'sum',
-    'Average_Amount': 'mean', 
-    'Transaction_Count': 'count'
-}).round(2)
-```
-
-**Reflection:** I learned that AI's first response isn't always the best. By asking for clearer variable names and business context, I got much better code. This taught me to always review AI code and ask for improvements rather than accepting the first solution.
+If the user chooses dashboard/menu:
+Dashboard will show:
+-	Expenses
+-	Chatbot (user can ask budget-related advice and questions)
 
 ---
 
