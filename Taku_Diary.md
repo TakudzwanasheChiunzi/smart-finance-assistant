@@ -44,7 +44,7 @@ This file shows sample entries for your **Developer's Diary**. You must document
 GOALS:
 - My financial assistant will be taking on the Budget Buddy theme.
 - My app will make use of colourful texts, themes and a menu page for maximum user interaction (all customisable, to an extent, by the user)
-- My app will be able to take in CSV files of expenses, calculate savings based on goals and provide advice based on what the results of their inpus are
+- My app will be able to take in CSV files of expenses, make calculations and provide advice based on the results of their inpus are
 
 ---
 
