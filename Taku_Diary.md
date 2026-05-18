@@ -192,58 +192,44 @@ I also asked Gemini to review what I had so far and give me advice on what is mi
 <img width="1410" height="813" alt="Screenshot 2026-05-18 225744" src="https://github.com/user-attachments/assets/6072c85b-2db0-4e4a-b3ca-fd90b484a2c2" />
 <img width="1354" height="813" alt="Screenshot 2026-05-18 225758" src="https://github.com/user-attachments/assets/7a3e50fc-828e-474c-9e41-ee6f71afccd7" />
 
-
-
-**Artifact:** Screenshot of debugging session with Claude about handling messy CSV data.
-
-**Context:** My CSV had negative amounts (refunds) and missing values that broke my calculations.
-
-**My Problem:** "My spending analysis is giving wrong totals because some amounts are negative (refunds) and some cells are empty."
-
-**AI Solution:** Helped me add data validation:
-```python
-# Handle refunds and missing data appropriately
-df_clean = df.dropna(subset=['Amount_Clean'])
-positive_spending = df_clean[df_clean['Amount_Clean'] > 0]
-refunds = df_clean[df_clean['Amount_Clean'] < 0]
-```
-
-**Reflection:** AI helped me think about real-world data issues I hadn't considered. I learned that business data is always messy and I need to ask AI specifically about edge cases like refunds, missing values, and invalid entries. This makes my finance assistant more robust for actual use.
+Reflection: 
 
 ---
 
-## Advanced Integration Examples
+### Entry 5 – MAKING THE BUDGET BUDDY BUSINESS-MINDED
 
-### Entry 5 – Combining Multiple AI Tools
-**Artifact:** Screenshot showing integration of hands-on-ai chat with pandas analysis.
+The rubric asks for a strong business framing. I asked Gemini for help on how to achieve this.
 
-**Context:** I wanted to create a chatbot that could answer questions about spending data.
+**Artifact:** 
+<img width="1381" height="802" alt="Screenshot 2026-05-18 231009" src="https://github.com/user-attachments/assets/288147b2-ac53-4e79-bb6e-f71c207addf2" />
+<img width="1346" height="816" alt="Screenshot 2026-05-18 231021" src="https://github.com/user-attachments/assets/31471a3b-d1e7-479f-a007-b9c5a70d8a56" />
+<img width="1343" height="823" alt="Screenshot 2026-05-18 231034" src="https://github.com/user-attachments/assets/b3ca000e-1783-4870-8d32-364233111f8a" />
+<img width="1374" height="843" alt="Screenshot 2026-05-18 231046" src="https://github.com/user-attachments/assets/243e7af3-cf73-4db5-981f-c0111ddef35a" />
+<img width="1382" height="807" alt="Screenshot 2026-05-18 231058" src="https://github.com/user-attachments/assets/26674baf-a013-4782-9d8f-a2bd45ddf3fc" />
+<img width="1354" height="824" alt="Screenshot 2026-05-18 231109" src="https://github.com/user-attachments/assets/710104ef-1d41-42b8-a3c8-553f0a3f91b3" />
+<img width="1329" height="813" alt="Screenshot 2026-05-18 231123" src="https://github.com/user-attachments/assets/1675d702-f2eb-4571-9fc1-0ed8faa47950" />
+<img width="1401" height="847" alt="Screenshot 2026-05-18 231138" src="https://github.com/user-attachments/assets/48dd1182-371f-4e9d-8ba4-b92d69423b6c" />
 
-**My Approach:** Used AI to help me combine CSV analysis with hands-on-ai chat functionality.
+**Context:** 
 
-**Key Learning:** AI helped me structure the integration, but I had to understand the business logic to make it useful. The chatbot needed to understand financial concepts, not just execute code.
+**My Approach:**
 
-**Reflection:** Integrating multiple technologies requires understanding how each piece serves the business purpose. AI can generate technical integration code, but I need to guide it toward business value.
+**Key Learning:** 
+
+**Reflection:** 
+
+
 
 ---
 
-### Entry 6 – Professional Error Handling
-**Artifact:** Code snippet showing error handling for file uploads.
+### Entry 6 – 
+**Artifact:** 
 
-**Context:** I needed my Gradio interface to handle bad CSV files gracefully.
-
-**AI Suggestion:** Generated try/catch blocks with business-appropriate error messages:
-```python
-try:
-    df = pd.read_csv(file.name)
-    # Analysis code...
-except FileNotFoundError:
-    return "Please upload a valid CSV file."
-except pd.errors.EmptyDataError:
-    return "The uploaded file appears to be empty. Please check your data."
+**Context:** 
+**AI Suggestion:** 
 ```
 
-**Reflection:** AI helped me think about user experience, not just technical functionality. Good error messages help users understand what went wrong and how to fix it. This is crucial for business applications.
+**Reflection:** 
 
 ---
 
@@ -272,7 +258,7 @@ except pd.errors.EmptyDataError:
 - Always connect code back to business decisions
 - Format outputs for non-technical users
 - Include actionable insights, not just data summaries
-- Consider the end user's needs ad context
+- Consider the end user's needs and context
 
 ---
 
