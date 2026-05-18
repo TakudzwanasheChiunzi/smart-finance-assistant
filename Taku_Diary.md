@@ -148,7 +148,31 @@ dashboard/cool fonts/graphics, or the budget buddy aspect of the app?
 
 ---
 
-### Entry 4 – Data Quality and Edge Cases
+### Entry 4 – IDENTIFYING THE INPUTS & OUTPUTS + WORKING OUT THE CALCULATIONS
+- I began working out what Inputs, outputs and calculations my code will need.
+
+Inputs:
+Expenses
+Budget_Amount
+Available_Money
+
+Outputs:
+Percentage_of_budget_used
+Percentage_of_available_money_used
+Net Balance
+Total_Expenses
+Chatbot Advice
+
+Calculations:
+Percentage of budget used: = (Total_Expenses/Budget_Amount) * 100
+Percentage of available money used: = Total_Expenses/ Available_Money * 100
+Total Expenses: = (Sum of Expenses)
+Net Balance = Available_Money – Total_Expenses
+
+
+
+
+
 **Artifact:** Screenshot of debugging session with Claude about handling messy CSV data.
 
 **Context:** My CSV had negative amounts (refunds) and missing values that broke my calculations.
