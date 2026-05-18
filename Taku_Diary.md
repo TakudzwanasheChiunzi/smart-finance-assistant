@@ -210,6 +210,32 @@ The rubric asks for a strong business framing. I asked Gemini for help on how to
 <img width="1329" height="813" alt="Screenshot 2026-05-18 231123" src="https://github.com/user-attachments/assets/1675d702-f2eb-4571-9fc1-0ed8faa47950" />
 <img width="1401" height="847" alt="Screenshot 2026-05-18 231138" src="https://github.com/user-attachments/assets/48dd1182-371f-4e9d-8ba4-b92d69423b6c" />
 
+Using the information from this and from my previous entry, I updated my inputs, outputs and calculations:
+
+Inputs:
+Expenses: the value of the expenses (integer) | must be greater than 0
+Budget_Amount: how much they want to spend (integer) | must be greater than 0
+Available_Money: how much money they have overall (integer) | must be greater than 0
+CSV file: a file of their expenses if they don’t want to input each expense (integer)
+Expense_Name: the meaning of the expenses (string)
+Date: the date of the expense 
+Scheduled_Pay_Day: when are the next expecting to receive money
+Category: if the expense is an essential/need or non-essential/want
+
+Outputs:
+Percentage_of_budget_used ( also calling it Burn_Rate)
+Percentage_of_available_money_used (also calling it Drawdown)
+Net Balance
+Total_Expenses
+Chatbot Advice
+Runaway : the days left before they get more money
+
+Step 3: Calculations
+Percentage of budget used: = (Total_Expenses/Budget_Amount) * 100
+Percentage of available money used: = Total_Expenses/ Available_Money * 100
+Total Expenses: = (Sum of Expenses)
+Net Balance = Available_Money – Total_Expenses
+
 **Context:** 
 
 **My Approach:**
