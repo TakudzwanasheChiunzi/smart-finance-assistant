@@ -7,7 +7,38 @@
 Welcome to your project repository for the **ISYS2001 Final Programming Project**. This repo provides a starting point for building your **Smart Finance Assistant**.
 
 ---
+## ☀️TAKU'S README INSTRUCTIONS☀️
 
+This repository contains the following:
+
+- AI CONVERSATIONS FOLDER
+- LICENSE
+- README.md
+- Taku_Diary.md
+- Taku_Sample_Transactions.csv
+- smart_finance_project.md
+- starter_notebook.ipynb
+- starter_nootebook_build_+_tester.ipynb
+
+Recommended reading order
+
+1. README.md
+2. LICENSE
+3. smart_finance_project.md
+4. Taku_Diary.md
+5. AI CONVERSATIONS FOLDER
+6. Taku_Sample_Transactions.csv
+7. starter_nootebook_build_+_tester.ipynb
+8. starter_notebook.ipynb
+
+
+
+
+
+
+
+
+---
 ## 📖 Project Overview
 In this project, you will design and implement a **Smart Finance Assistant** using:
 - Python (Google Colab)
