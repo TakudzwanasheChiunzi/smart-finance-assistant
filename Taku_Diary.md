@@ -144,6 +144,18 @@ dashboard/cool fonts/graphics, or the budget buddy aspect of the app?
 
 **AI Response:** Gemini gave me a recommended framework to use (full conversation can be seen in AI CONVERSATIONS folder)
 
+I also asked Gemini to further explain how to create a 'Markdown' in Google Colab.
+
+<img width="1349" height="809" alt="Screenshot 2026-05-18 225148" src="https://github.com/user-attachments/assets/66d738d5-f4c7-435a-937a-acc6e22adce9" />
+<img width="1358" height="810" alt="Screenshot 2026-05-18 225201" src="https://github.com/user-attachments/assets/be41f4cb-3264-4995-9ec9-b66b432821db" />
+<img width="1362" height="804" alt="Screenshot 2026-05-18 225214" src="https://github.com/user-attachments/assets/b2c40ef4-bdbc-4ac0-ace0-859a04f5b075" />
+<img width="1348" height="781" alt="Screenshot 2026-05-18 225228" src="https://github.com/user-attachments/assets/392d064f-51a4-4980-ac0c-6993dbbdfaab" />
+<img width="1345" height="812" alt="Screenshot 2026-05-18 225241" src="https://github.com/user-attachments/assets/a6d733eb-dcaf-447d-9604-2cfc6cd149be" />
+<img width="1347" height="611" alt="Screenshot 2026-05-18 225311" src="https://github.com/user-attachments/assets/028f5cba-fe68-4d3f-8b59-8a75bf0ae30d" />
+<img width="1331" height="798" alt="Screenshot 2026-05-18 225256" src="https://github.com/user-attachments/assets/fa8ea585-301d-46d9-b614-559e406eef0a" />
+
+
+
 **Reflection:** 
 
 ---
@@ -169,7 +181,16 @@ Percentage of available money used: = Total_Expenses/ Available_Money * 100
 Total Expenses: = (Sum of Expenses)
 Net Balance = Available_Money – Total_Expenses
 
+I also asked Gemini to review what I had so far and give me advice on what is missing/suggestions for what else to add.
 
+<img width="1370" height="805" alt="Screenshot 2026-05-18 225621" src="https://github.com/user-attachments/assets/86394e68-27fa-4e81-bb57-5cf14d63a5f0" />
+<img width="1348" height="827" alt="Screenshot 2026-05-18 225635" src="https://github.com/user-attachments/assets/b9e5f703-0790-47f8-9473-d1f7bf0d85e9" />
+<img width="1334" height="814" alt="Screenshot 2026-05-18 225649" src="https://github.com/user-attachments/assets/d576af5d-2d94-4219-978e-ccfa31220abe" />
+<img width="1330" height="818" alt="Screenshot 2026-05-18 225704" src="https://github.com/user-attachments/assets/52b9eb4b-5638-4660-9c51-e4bbaf4b084d" />
+<img width="1356" height="842" alt="Screenshot 2026-05-18 225717" src="https://github.com/user-attachments/assets/e6955dfa-a7cc-4ad3-8068-c7fa5768b565" />
+<img width="1343" height="825" alt="Screenshot 2026-05-18 225731" src="https://github.com/user-attachments/assets/cf70a504-ebb6-4a6d-9c75-f1070ea13883" />
+<img width="1410" height="813" alt="Screenshot 2026-05-18 225744" src="https://github.com/user-attachments/assets/6072c85b-2db0-4e4a-b3ca-fd90b484a2c2" />
+<img width="1354" height="813" alt="Screenshot 2026-05-18 225758" src="https://github.com/user-attachments/assets/7a3e50fc-828e-474c-9e41-ee6f71afccd7" />
 
 
 
