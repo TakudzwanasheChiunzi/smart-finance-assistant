@@ -338,3 +338,107 @@ What kind of financial personality are you planning to give your budget chatbot 
 _________________________________________________________________________________________________________________________________________________________________________________
 
 3RD PROMPT
+
+MY Prompt:
+How do I write a Markdown code in Colab? I've copied and pasted the code you have given me, but is it supposed to run?
+
+Response:
+No, it is **not supposed to run** like a Python code cell!
+
+In Google Colab, there are two completely different types of cells: **Code cells** and **Text (Markdown) cells**.
+
+The structured roadmap I gave you is written in **Markdown**, which is a simple formatting language used to display beautifully styled text, headings, lists, and math equations. If you try to paste Markdown into a Python Code cell and click the "Play" button, Python will get confused and throw a syntax error.
+
+Here is exactly how to use it correctly in your assignment notebook to satisfy your **Six-Step Development Methodology**:
+
+---
+
+## 🛠️ How to Add a Markdown Text Cell in Colab
+
+1. Move your mouse cursor right to the **top-middle** or **bottom-middle** of any existing cell in your Colab notebook.
+2. Two buttons will pop up: **`+ Code`** and **`+ Text`**.
+3. Click **`+ Text`** (this is your Markdown cell).
+4. Paste the Markdown text outline I gave you into this new cell.
+5. To "save" or render the clean text format, simply click anywhere outside of that text box, or press `Shift + Enter` on your keyboard.
+
+> 💡 **Tip:** If you double-click on any Text cell, it will open up the split-screen editor where you can edit the text on the left and see how it will visually look on the right.
+
+---
+
+## 🎨 A Quick Cheat Sheet for Writing Markdown
+
+Since your assignment's **Clarity & Reflection criteria (15%)** explicitly grades you on your repository structure, README formatting, and markdown reflections, here are the core styling tricks you will use to make your notebook look highly professional:
+
+### 1. Headings
+
+Use the hashtag symbol (`#`) followed by a space to create clear hierarchies:
+
+```markdown
+# This is a Major Title (Like your project name)
+## This is a Section Heading (Like Step 1: Understand the Problem)
+### This is a Subheading
+
+```
+
+### 2. Styling Text
+
+To emphasize key terms or notes for your grader:
+
+* Use double asterisks `text` to **bold** key phrases.
+* Use single asterisks `*text*` to *italicize* text.
+
+### 3. Bullet Points and Lists
+
+To break your project inputs and outputs down into clear, digestible lists:
+
+```markdown
+### Inputs and Outputs:
+* **Input 1:** Raw transactional CSV spreadsheet.
+* **Input 2:** User-defined target budget threshold.
+
+```
+
+### 4. Mathematical Equations (Using LaTeX)
+
+Your specification states you need to show 2–3 manual math examples for Step 3. You can render beautiful math by wrapping your math equations in dollar signs (`$`).
+
+* For inline math: `The budget percentage formula is $\frac{\text{Spent}}{\text{Budget}} \times 100$.`
+* For a standalone centered equation:
+```markdown
+$$Remaining = Budget - Spent$$
+
+```
+
+
+
+---
+
+## 🧱 What Your Actual Colab Notebook Layout Should Look Like
+
+Your final notebook should be an alternating sandwich of text cells and running code cells:
+
+* 📝 **Text Cell (Markdown):** `## Step 1: Understand the Problem...` 
+
+
+* 📝 **Text Cell (Markdown):** `## Step 2: Identify Inputs and Outputs...` 
+
+
+* 📝 **Text Cell (Markdown):** `## Step 3: Work the Problem by Hand...` 
+
+
+* 📝 **Text Cell (Markdown):** `## Step 4: Write Pseudo Code...` 
+
+
+* 💻 **Code Cell (Python):** `## Step 5: Convert to Python` (This is where your actual interactive code block lives, runs, and displays your Gradio UI) 
+
+
+* 💻 **Code Cell (Python):** `## Step 6: Testing Section` (Executable automated tests or assertions validating your math backend) 
+
+
+
+Would you like me to generate a clean, ready-to-copy Markdown template for your **Step 1 (Understand the Problem)** and **Step 2 (Inputs/Outputs)** based on your Budget Buddy idea?
+________________________________________________________________________________________________________________________________________________________________
+
+4TH PROMPT
+
+MY Prompt:
