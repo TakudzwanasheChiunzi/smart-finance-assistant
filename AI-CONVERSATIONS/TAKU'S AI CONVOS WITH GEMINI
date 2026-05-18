@@ -4,3 +4,117 @@ Hello Gemini. I'm a BCOM business information systems undergraduate student, in 
 
 Response:
 Hello Gemini. I'm a BCOM business information systems undergraduate student, in my first year, second semester. I'm doing my Introduction to Business Programming assignment, and I would like your help breaking down what the assignment requires in a way a complete novice would understand (since I am new to Python).
+
+Prompt:
+Thank you
+Gemini. I want my app to act as a budget buddy. This is what I want my app to
+do:
+ I wrote down my ideas of what I
+     wanted the app to do/created a pseudo code of what I wanted the assistant
+     to do. I then asked Gemini to break down how I would go about it.
+
+ The app will welcome the user to
+     the app
+
+ The app will ask the user to
+     select a theme and font
+
+ App will start by asking if the
+     user wants to see the menu/dashboard or jump into the budget
+If the User
+chooses Budget:
+
+ App asks the user if they want to
+     work on their budget If the User chooses Budget:
+
+ App asks the user if
+
+ App asks if the user wants to
+     upload a CSV file or input transactions If the User chooses CSV:
+
+ App prompts user to upload the
+     CSV
+
+ App calculates total spent,
+     amount of budget used, percentage of budget used, and gives out advice If
+     the User chooses input transactions
+
+ App prompts user to input how
+     many transactions they want to input
+
+ App asks user to input the name
+     of the transactions, what it was for and the amount
+
+ App calculates total spent,
+     amount of budget used, percentage of budget used and gives out advice
+If the user
+chooses dashboard/menu: Dashboard will show:
+
+ Expenses
+
+ Chatbot (user can ask
+     budget-related advice and questions)
+ 
+How should I go about coding this app in my Colab notebook? Should I start by creating the
+dashboard/cool fonts/graphics, or the budget buddy aspect of the app?
+
+Response:
+It is exciting to see you mapping out your "Budget Buddy" application logic so early! You have already completed a major part of **Step 4 (Write Pseudo Code)** of your required six-step development methodology.
+When building a programming project—especially as a beginner—the order in which you build components is critical to avoiding bugs and frustration.
+---
+## 🏗️ The Golden Rule: Functionality First, Aesthetics Last
+You should absolutely start with the **Budget Buddy backend logic** (the mathematical calculations and data processing) before you touch the dashboard, fonts, themes, or visual graphics.
+According to your assignment's grading rubric:
+* 
+**Functionality & Testing** make up **50% of your grade**.
+* 
+**Visual polish** (Gradio features) is only a sub-component of the Functionality and Clarity criteria.
+If you build a beautiful dashboard first with custom fonts and themes, but the underlying Python code cannot calculate a budget percentage or read a CSV file, your application will fail to run and score poorly. A simple interface that works flawlessly will always score higher than a gorgeous interface where the buttons do not function.
+---
+## 🛠️ Recommended Step-by-Step Implementation Roadmap
+To keep your Google Colab notebook clean and highly aligned with your **Six-Step Development Methodology**, follow this logical building sequence:
+### Phase 1: Pure Python Logic (No Interface Yet)
+Start by writing standard Python code blocks. Test them by typing inputs directly into the notebook cells to ensure your formulas work.
+1. **Step 1: The Transaction Input Logic**
+* Write a Python function that asks a user for a manual number of transactions, loops through that number, and collects names and amounts.
+* Practice storing these in a Python list or a Pandas DataFrame.
+2. **Step 2: The CSV Upload & Math Logic**
+* Write the code that takes a sample CSV file and sums up the column containing transaction amounts.
+* Build the mathematical formulas to calculate:
+* $\text{Total Spent}$
+* $\text{Remaining Budget Amount}$
+* $\text{Percentage of Budget Used}$ ($\frac{\text{Total Spent}}{\text{Total Budget}} \times 100$)
+3. **Step 3: The Chatbot & AI Advice Integration**
+* Use the university's required `hands-on-ai` package to hook up your chatbot personality.
+* Test passing your calculated budget percentages to the AI so it can output customized advice (e.g., *"You have used 85% of your budget, please stop dining out!"*).
+### Phase 2: Building the Interface (Gradio Layout)
+Once your backend math, CSV reading, and chatbot logic work perfectly in raw Python cells, move on to building your visual application wrapper.
+4. **Step 4: Layout and Navigation (Tabs)**
+* In Gradio, the easiest way to handle a "Dashboard vs. Budget Planner" workflow is by using **`gr.Tabs()`**.
+* Create one Tab called "📊 Dashboard" (which displays your summary expenses and the Chatbot).
+* Create a second Tab called "💰 Budget Worksheet" (which prompts users to either upload their CSV or manually input their transactions).
+5. **Step 5: Font, Themes, and Welcomes**
+* Now that your core application functionality is fully running, use Gradio's built-in theme engine (like `theme=gr.themes.Soft()`) or custom CSS to add your personality, select fonts, style your layout, and display your welcome message banner.
+---
+## 📝 Documenting This in Your Colab Notebook
+As you write this code, don't forget to wrap it in the required project structure:
+```markdown
+## Step 1: Understand the Problem
+[Write a short business narrative about helping users track spending to avoid debt.]
+## Step 2: Identify Inputs and Outputs
+- Inputs: User total budget limit, raw CSV file, or manual text strings for names/amounts.
+- Outputs: Calculated dollar amounts, percentages, and AI generated textual budget advice.
+## Step 3: Work the Problem by Hand
+- If Budget = $1000 and Expenses = $250 -> Budget Used = 25%. Remaining = $750.
+## Step 4: Write Pseudo Code
+[Paste the brilliant outline you shared in this prompt here!]
+## Step 5: Convert to Python
+[Your actual working Python and Gradio code cells go here]
+## Step 6: Test with a Variety of Data
+[Your testing cells showing normal and edge case values]
+
+```
+
+By focusing on getting the core financial calculation math right first, you protect your functionality score early on and give yourself a stress-free environment to tweak the visuals later.
+
+What kind of financial personality are you planning to give your budget chatbot assistant (e.g., a strict, direct accountant, or an encouraging, friendly savings coach)?
