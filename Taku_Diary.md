@@ -30,6 +30,8 @@
 
 **My Improved Prompt:** N/A
 
+**AI Response:** Gemini broke down the main points of the assignment (full conversation can be read in AI CONVERSATIONS folder)
+
 **Context:** Here, I asked Gemini to break down the assignment in a simple way so I could compare my understanding with its understanding.
 
 **Reflection:** The response provided validation that I understood the gist of the assignment and provided the base understanding for me to begin work on it.
@@ -41,7 +43,7 @@ GOALS:
 
 ---
 
-### Entry 2 – IDEALISING WHAT I WANT MY FINANCE APP TO BE LIKE
+### Entry 2 – IDEALISING WHAT I WANT MY FINANCE APP TO BE LIKE (PSEUDO CODE)
 - I wrote down my ideas of what I wanted the app to do/created a pseudo code of what I wanted the assistant to do. I then asked Gemini to break down how I would go about it.
 
 -	The app will welcome the user to the app
@@ -69,16 +71,80 @@ Dashboard will show:
 
 ---
 
-### Entry 3 – Business Context in AI Interactions
-**Artifact:** Screenshot of Gemini generating financial insights from data.
+### Entry 3 – USING AI AS A PROJECT GUIDE
+- I gave Gemini my pseudocode and asked it where I should start building my finance app.
+  
+**Artifact:** 
+<img width="1352" height="830" alt="Screenshot 2026-05-18 211133" src="https://github.com/user-attachments/assets/d93514b9-a441-4959-a481-fbd3a75422d0" />
+<img width="1333" height="834" alt="Screenshot 2026-05-18 211148" src="https://github.com/user-attachments/assets/155e75f6-8fc1-49b8-8d9c-da8b5c19a8c7" />
+<img width="1402" height="828" alt="Screenshot 2026-05-18 211203" src="https://github.com/user-attachments/assets/b2e3da96-8c21-4477-9e42-52ed9e3317a5" />
+<img width="1394" height="814" alt="Screenshot 2026-05-18 211218" src="https://github.com/user-attachments/assets/2bd2687c-4034-4170-85d4-328d0d05ed5d" />
+<img width="1353" height="822" alt="Screenshot 2026-05-18 211230" src="https://github.com/user-attachments/assets/9ad23012-9e0c-42d2-82b6-fdc36d61ea8c" />
+<img width="1339" height="816" alt="Screenshot 2026-05-18 211244" src="https://github.com/user-attachments/assets/6ba4ea57-e155-4165-9859-9ef607ddbd3e" />
+<img width="1370" height="815" alt="Screenshot 2026-05-18 211257" src="https://github.com/user-attachments/assets/e646eb60-2877-4bfa-9104-caf50c92ad81" />
+<img width="1326" height="844" alt="Screenshot 2026-05-18 211326" src="https://github.com/user-attachments/assets/8f260f52-c2cc-4991-ac05-9b1f8893f9fb" />
+<img width="1420" height="815" alt="Screenshot 2026-05-18 211341" src="https://github.com/user-attachments/assets/358a1c69-e4cf-4196-922f-6e2a75c9b93c" />
 
-**Context:** I wanted AI to help generate business recommendations from spending analysis.
+**Context:** I wanted Gemini's help on choosing where to start in the coding process.
 
-**My Prompt:** "Based on this spending analysis showing Groceries: $450, Dining: $380, Coffee: $120, Transport: $95, create business insights and savings recommendations that sound professional for a personal finance app."
+**My Initial Prompt:** 
+Thank you Gemini. I want my app to act as a budget buddy. This is what I want my app to
+do:
 
-**AI Response:** Generated specific recommendations like "Consider meal planning to reduce dining expenses" and "Coffee purchases represent 8% of total spending - consider brewing at home."
+ I wrote down my ideas of what I
+     wanted the app to do/created a pseudo code of what I wanted the assistant
+     to do. I then asked Gemini to break down how I would go about it.
 
-**Reflection:** When I include business context and specify the audience (personal finance app users), AI generates much more relevant and professional output. I learned that framing requests in business terms gets business-quality responses. Now I always think about who will read the output and what decisions they need to make.
+ The app will welcome the user to
+     the app
+
+ The app will ask the user to
+     select a theme and font
+
+ App will start by asking if the
+     user wants to see the menu/dashboard or jump into the budget
+If the User
+chooses Budget:
+
+ App asks the user if they want to
+     work on their budget If the User chooses Budget:
+
+ App asks the user if
+
+ App asks if the user wants to
+     upload a CSV file or input transactions If the User chooses CSV:
+
+ App prompts user to upload the
+     CSV
+
+ App calculates total spent,
+     amount of budget used, percentage of budget used, and gives out advice If
+     the User chooses input transactions
+
+ App prompts user to input how
+     many transactions they want to input
+
+ App asks user to input the name
+     of the transactions, what it was for and the amount
+
+ App calculates total spent,
+     amount of budget used, percentage of budget used and gives out advice
+If the user
+chooses dashboard/menu: Dashboard will show:
+
+ Expenses
+
+ Chatbot (user can ask
+     budget-related advice and questions)
+ 
+How should I go about coding this app in my Colab notebook? Should I start by creating the
+dashboard/cool fonts/graphics, or the budget buddy aspect of the app?
+
+**My Improved Prompt:** N/A
+
+**AI Response:** Gemini gave me a recommended framework to use (full conversation can be seen in AI CONVERSATIONS folder)
+
+**Reflection:** 
 
 ---
 
