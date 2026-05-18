@@ -1,3 +1,5 @@
+1ST PROMPT
+
 MY Prompt:
 Hello Gemini. I'm a BCOM business information systems undergraduate student, in my first year, second semester. I'm doing my Introduction to Business Programming assignment, and I would like your help breaking down what the assignment requires in a way a complete novice would understand (since I am new to Python).
 [I also inserted the assignment spec into Gemini]
@@ -219,6 +221,8 @@ Which of the suggested themes (like the *Budget Buddy* or *Savings Coach*) stand
 
 _________________________________________________________________________________________________________________________________________________________________
 
+2ND PROMPT
+
 MY Prompt:
 Thank you Gemini. I want my app to act as a budget buddy. This is what I want my app to
 do:
@@ -331,3 +335,6 @@ As you write this code, don't forget to wrap it in the required project structur
 By focusing on getting the core financial calculation math right first, you protect your functionality score early on and give yourself a stress-free environment to tweak the visuals later.
 
 What kind of financial personality are you planning to give your budget chatbot assistant (e.g., a strict, direct accountant, or an encouraging, friendly savings coach)?
+_________________________________________________________________________________________________________________________________________________________________________________
+
+3RD PROMPT
