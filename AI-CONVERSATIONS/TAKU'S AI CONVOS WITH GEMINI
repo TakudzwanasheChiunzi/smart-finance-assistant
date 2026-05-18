@@ -1,13 +1,226 @@
-Prompt:
+MY Prompt:
 Hello Gemini. I'm a BCOM business information systems undergraduate student, in my first year, second semester. I'm doing my Introduction to Business Programming assignment, and I would like your help breaking down what the assignment requires in a way a complete novice would understand (since I am new to Python).
 [I also inserted the assignment spec into Gemini]
 
 Response:
-Hello Gemini. I'm a BCOM business information systems undergraduate student, in my first year, second semester. I'm doing my Introduction to Business Programming assignment, and I would like your help breaking down what the assignment requires in a way a complete novice would understand (since I am new to Python).
+Welcome to your first major programming project! It is completely normal to feel a bit overwhelmed when transitioning from business frameworks to Python code, but this assignment is actually designed to bridge that exact gap. It uses a structured business approach to solve a real-world financial problem using tech.
 
-Prompt:
-Thank you
-Gemini. I want my app to act as a budget buddy. This is what I want my app to
+Since you are a first-year student and new to Python, let’s break this specification down into plain English, focus on what you actually need to build, and look at how to secure the best marks according to your rubric.
+
+---
+
+## 📅 The Essentials (The "Don't Miss" List)
+
+* 
+**Due Date:** Friday, 22 May 2026, by 11:59 PM AWST.
+
+
+* 
+**Weighting:** 40% of your final grade.
+
+
+* 
+**Submission Requirements:** You must submit a **ZIP file** of your project files and provide a **link to your GitHub repository**.
+
+
+* 
+**Crucial Action Item:** You must add `kevin-blasiak-curtin` as a collaborator on your GitHub repository so your instructor can grade it.
+
+
+
+---
+
+## 🤖 What is a "Smart Finance Assistant"?
+
+Essentially, you are building a single Google Colab Notebook (an interactive coding file) that runs a web-based app. This app will have a user interface (UI) where someone can interact with a finance chatbot.
+
+Your project needs to combine four core tech features:
+
+1. 
+**Chat (The Personality Bot):** A chatbot designed to speak like a financial advisor or coach.
+
+
+2. 
+**RAG (Retrieval-Augmented Generation):** A fancy term for "feeding data to an AI". Your chatbot needs to be able to read financial information from a document, like a CSV spreadsheet of bank transactions, and answer questions about it.
+
+
+3. 
+**Agent Tool (A Custom Calculator):** A Python function you write yourself that performs a specific financial calculation (e.g., converting currencies or calculating a savings goal).
+
+
+4. 
+**Gradio UI (The Visual Interface):** A tool that turns your code into a clean, clickable web page with text boxes and buttons so users don't have to look at raw code.
+
+
+
+### 🧭 Choosing Your Theme
+
+The specification gives you pre-approved themes. As a Business Information Systems student, picking a clear theme helps keep your project organized. Good options include:
+
+* 
+**Budget Buddy:** The user uploads a CSV file of their expenses, and the chatbot gives them spending advice.
+
+
+* 
+**Savings Coach:** The chatbot gives financial encouragement and uses your custom tool to calculate savings goals.
+
+
+
+---
+
+## 📈 Demystifying the Grading Rubric (How to Get an HD)
+
+Your assignment is graded on five distinct areas. Here is exactly what the graders are looking for, decoded for a beginner:
+
+### 1. Functionality (30%)
+
+* 
+**What it means:** Does your app actually work?
+
+
+* 
+**HD Strategy:** Ensure your Python code runs from start to finish without crashing. Your Gradio interface should look polished, be easy to navigate, and seamlessly let the user chat, upload a file, and use your custom calculation tool.
+
+
+
+### 2. Testing & Debugging (20%)
+
+* 
+**What it means:** Proving that you checked your work for errors.
+
+
+* 
+**HD Strategy:** Dedicate a specific section at the very bottom of your notebook to testing. Don't just test "perfect" scenarios. Write tests for what happens if a user types in negative money, leaves a box blank, or uploads the wrong file type. Show how you fixed these bugs.
+
+
+
+### 3. AI Collaboration & Weekly Progress (20%)
+
+* 
+**What it means:** Showing that you used AI as a learning partner over time, rather than using it to generate the project at the last minute.
+
+
+* 
+**HD Strategy:** You must document your learning in a **Developer's Diary** (`diary.md`). For Weeks 8 through 12, include an **AI Evidence Package** consisting of:
+
+
+* A screenshot or GIF showing your chat with an AI (like Gemini).
+
+
+* A one-sentence explanation of what you were trying to achieve.
+
+
+* A reflection on what worked, what failed, and what you learned from the AI's code.
+
+
+
+
+* 
+*Note:* You also need at least one meaningful "commit" (save update) to GitHub every week during this period.
+
+
+
+### 4. Business Relevance (15%)
+
+* 
+**What it means:** Aligning the code with a real business or consumer problem.
+
+
+* 
+**HD Strategy:** This is where your business background shines. Frame your project clearly. Instead of just writing a "calculator," explain *why* a consumer needs this app (e.g., "Helping Gen Z college students overcome impulse spending habits through real-time budget tracking").
+
+
+
+### 5. Clarity & Reflection (15%)
+
+* 
+**What it means:** Presentation, documentation, and clean file organization.
+
+
+* 
+**HD Strategy:** Keep your GitHub repository clean. Write a professional `README.md` file that acts as an "instruction manual," explicitly detailing what your assistant does, providing sample inputs/outputs, and listing step-by-step instructions on how to open and run your notebook.
+
+
+
+---
+
+## 🛠️ Your Roadmap: The Six-Step Development Methodology
+
+The assignment strictly requires you to document the **Six-Step Method** inside your Colab notebook using Markdown (text blocks) before and after your Python code blocks:
+
+```
+┌────────────────────────────────────────────────────────┐
+│ 1. Understand the Problem (Plain English description)  │
+└───────────────────────────┬────────────────────────────┘
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│ 2. Identify Inputs & Outputs (Data going in & out)     │
+└───────────────────────────┬────────────────────────────┘
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│ 3. Work the Problem by Hand (2-3 manual math examples) │
+└───────────────────────────┬────────────────────────────┘
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│ 4. Write Pseudo Code (Logic written like a recipe)     │
+└───────────────────────────┬────────────────────────────┘
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│ 5. Convert to Python (The actual coding cells)         │
+└───────────────────────────┬────────────────────────────┘
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│ 6. Test with Variety of Data (Checking for edge cases) │
+└────────────────────────────────────────────────────────┘
+
+```
+
+1. 
+**Understand the Problem:** Write a paragraph in plain English explaining the financial issue your app is solving.
+
+
+2. 
+**Identify Inputs and Outputs:** Explicitly list what data goes into your app (e.g., a CSV file of bank statements) and what comes out (e.g., a visual spending breakdown summary).
+
+
+3. 
+**Work the Problem by Hand:** Show 2–3 manual examples. If your custom tool calculates a 10% savings goal, write out the manual math: $500 \times 0.10 = $50. Use Markdown text or upload an image of handwritten math.
+
+
+4. 
+**Write Pseudo Code:** Before writing actual Python code, outline your program's steps like a cooking recipe using plain language. (e.g., *"If user input is less than zero, display an error message. Otherwise, multiply input by interest rate."*) .
+
+
+5. 
+**Convert to Python:** This is where you actually write the executable code cells using Python and the university's required `hands-on-ai` package.
+
+
+6. 
+**Test with a Variety of Data:** Create a dedicated testing section validating that your code works across normal, unusual, and incorrect inputs.
+
+
+
+---
+
+## 🗂️ What Your Final Repository Must Look Like
+
+When your instructor opens your GitHub link, they should see a highly organized folder containing exactly these deliverables:
+
+* 📁 **`smart_finance_assistant.ipynb`** (Your complete Google Colab Notebook containing all your text reflections, your code, your UI, and your testing section).
+
+
+* 📁 **`README.md`** (The professional user manual for your app).
+
+
+* 📁 **`diary.md`** (Your Developer's Diary including your weekly AI interaction packages for weeks 8–12).
+
+To get started, your first step is to visit the starter repository provided by your instructor (`https://github.com/michael-borck/smart-finance-assistant`) and "clone" (copy) it to your own GitHub profile to access the template code.
+Which of the suggested themes (like the *Budget Buddy* or *Savings Coach*) stands out to you the most as a starting point for your project?
+
+_________________________________________________________________________________________________________________________________________________________________
+
+MY Prompt:
+Thank you Gemini. I want my app to act as a budget buddy. This is what I want my app to
 do:
  I wrote down my ideas of what I
      wanted the app to do/created a pseudo code of what I wanted the assistant
